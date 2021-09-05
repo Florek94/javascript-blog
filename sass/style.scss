@@ -118,3 +118,40 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.tag-size-1 {
+  font-size: 15px;
+  color: #ff0000;
+}
+
+.tag-size-2 {
+  font-size: 20px;
+  color: #F17F01;
+}
+
+.tag-size-3 {
+  font-size: 25px;
+  color: #F9DF12;
+}
+
+.tag-size-4 {
+  font-size: 30px;
+  color: #017B46;
+}
+
+.tag-size-5 {
+  font-size: 35px;
+  color: #0065AE;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  margin: 6px;
+}
+.tag-link {
+  text-decoration: none;
+}
