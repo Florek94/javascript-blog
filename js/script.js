@@ -202,7 +202,7 @@
       /* END LOOP: for each active tag link */
     }
     /* find all tag links with "href" attribute equal to the "href" constant */
-    const tagLinksHref = document.querySelectorAll('a[href^="#tag-"]');
+    const tagLinksHref = document.querySelectorAll('a[href^="#tag-' + tag + '"]');
     /* START LOOP: for each found tag link */
     for (let tagLinkHref of tagLinksHref) {
       /* add class active */
@@ -296,7 +296,7 @@
       /* END LOOP: for each active tag link */
     }
     /* find all tag links with "href" attribute equal to the "href" constant */
-    const authorLinksHref = document.querySelectorAll('a[href^="#author-"]');
+    const authorLinksHref = document.querySelectorAll('a[href^="#author-' + author + '"]');
     /* START LOOP: for each found tag link */
     for (let authorLinkHref of authorLinksHref) {
       /* add class active */
